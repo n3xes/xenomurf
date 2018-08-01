@@ -19,6 +19,8 @@ import { VisualArtJobsComponent } from './components/jobs/visual-art-jobs/visual
 import { VisualArtJobAnimatorComponent } from './components/jobs/visual-art-jobs/visual-art-job-animator/visual-art-job-animator.component';
 import { VisualArtJobArtistCharacterComponent } from './components/jobs/visual-art-jobs/visual-art-job-artist-character/visual-art-job-artist-character.component';
 import { VisualArtJobArtistEnvironmentComponent } from './components/jobs/visual-art-jobs/visual-art-job-artist-environment/visual-art-job-artist-environment.component';
+import { GamesComponent } from './components/games/games.component';
+import { GameSurvivingTheHolidaysComponent } from './components/games/game-surviving-the-holidays/game-surviving-the-holidays.component';
 
 const routes: Routes = [{ 
     component: AboutComponent,
@@ -69,6 +71,8 @@ const routes: Routes = [{
     VisualArtJobAnimatorComponent,
     VisualArtJobArtistCharacterComponent,
     VisualArtJobArtistEnvironmentComponent,
+    GamesComponent,
+    GameSurvivingTheHolidaysComponent,
   ],
   imports: [
     BrowserModule,
