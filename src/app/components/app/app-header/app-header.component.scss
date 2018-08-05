@@ -1,10 +1,50 @@
-a.navbar-brand > svg
-{
-    padding: 10px 0 0 20px;
-}
+@import "styles-variables";
 
-nav.navbar
+header nav.navbar
 {
     background-color: #e7bd2a;
-    height: 100px;
+    height: 175px;
+	padding-top: 20px;
+}
+
+header nav.navbar > a.navbar-brand
+{
+    margin-bottom: 8px; 
+}
+
+header nav.navbar > a.navbar-brand > svg.nav-logotype
+{
+    height: 80px;
+	width: 250px; 
+}
+
+header nav.navbar > ul.nav.navbar-nav > li.nav-item 
+{
+	height: 56px;
+    line-height: 40px;
+    width: 100px;
+}
+
+header nav.navbar > ul.nav.navbar-nav > li.nav-item > a.nav-link
+{
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .75em;
+	font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+@media (min-width: map-get($grid-breakpoints, md))
+{
+    header nav.navbar
+    {
+        height: 100px;
+        padding-top: 0;
+    }
+
+    header nav.navbar > a.navbar-brand > svg.nav-logotype
+    {
+        padding: 10px 0 0 20px;
+    } 
 }

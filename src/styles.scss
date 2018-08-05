@@ -6,6 +6,7 @@
 
 body
 {
-	font-family: $font-name;
-	background-color: $background-color;
+    background-color: $color-background-primary;
+    color: $color-font-primary;
+    font-family: $name-font-primary;
 }

@@ -1,0 +1,50 @@
+@import "styles-variables";
+
+footer div.x-footer
+{
+	background-color: #161616;
+	height: 120px;
+}
+
+footer div.x-footer > ul.social-icons
+{
+    margin-top: 30px;
+	padding: 0;
+}
+
+footer div.x-footer > ul.social-icons > li
+{
+    height: 54px;
+    width: 54px;
+}
+
+footer div.x-footer > ul.social-icons > li > a
+{
+    height: 100%;
+    width: 100%;
+}
+
+footer div.x-footer > p.xms-copyright
+{
+	color: #e7bd2a;
+	font-size: 12px;
+}
+
+@media (min-width: map-get($grid-breakpoints, md))
+{
+    footer div.x-footer
+    {
+        height: 60px;
+    }
+    
+    footer div.x-footer > ul.social-icons
+    {
+        margin: 0;
+        padding-right: 15px;
+    }
+    
+    footer div.x-footer > p.xms-copyright
+    {
+        padding: 20px 0 0 30px;
+    }
+}

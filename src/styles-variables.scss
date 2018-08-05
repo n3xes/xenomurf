@@ -1,6 +1,5 @@
-$background-color: #000;
-$font-name: 'Open Sans', sans-serif;
-
+$color-background-primary: #000;
+$color-font-primary: #373a3c;
 $grid-breakpoints: (
   xs: 0,
   sm: 576px,
@@ -8,3 +7,4 @@ $grid-breakpoints: (
   lg: 992px,
   xl: 1200px
 );
+$name-font-primary: 'Open Sans', sans-serif;
